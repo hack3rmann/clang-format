@@ -1,0 +1,6 @@
+BasedOnStyle: Google
+LineEnding: LF
+IndentWidth: 4
+AlignAfterOpenBracket: BlockIndent
+AccessModifierOffset: -4
+
