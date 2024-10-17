@@ -1,6 +1,45 @@
+Language: Cpp
 BasedOnStyle: Google
 LineEnding: LF
 IndentWidth: 4
 AlignAfterOpenBracket: BlockIndent
 AccessModifierOffset: -4
-
+BreakConstructorInitializers: BeforeComma
+BreakInheritanceList: BeforeComma
+BreakBeforeTernaryOperators: true
+BreakBeforeConceptDeclarations: Always
+# BreakTemplateDeclarations: Yes #! available since clang-format 19
+CompactNamespaces: false
+ContinuationIndentWidth: 4
+Cpp11BracedListStyle: true
+EmptyLineBeforeAccessModifier: LogicalBlock
+FixNamespaceComments: true
+IncludeBlocks: Regroup
+IndentCaseLabels: false
+IndentExternBlock: true
+IndentGotoLabels: true
+IndentPPDirectives: AfterHash
+RequiresClausePosition: OwnLine # TODO: read more about
+IndentRequiresClause: true
+InsertBraces: true # may cause bugs (see https://clang.llvm.org/docs/ClangFormatStyleOptions.html#insertbraces)
+IntegerLiteralSeparator:
+  Binary: 0
+  Decimal: 3
+  Hex: -1
+MaxEmptyLinesToKeep: 2
+NamespaceIndentation: All
+PPIndentWidth: -1 # -1 to use `IndentWidth` value
+PointerAlignment: Left
+QualifierAlignment: Custom
+QualifierOrder: [inline, static, type, const, constexpr]
+ReferenceAlignment: Pointer
+SeparateDefinitionBlocks: Always
+SpaceAfterCStyleCast: true
+SpaceAroundPointerQualifiers: Before
+SpaceBeforeCtorInitializerColon: true
+SpaceBeforeInheritanceColon: true
+AlignOperands: AlignAfterOperator
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterControlStatement: MultiLine
+PackConstructorInitializers: Never
