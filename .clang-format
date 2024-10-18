@@ -30,12 +30,13 @@ MaxEmptyLinesToKeep: 2
 NamespaceIndentation: All
 PPIndentWidth: -1 # -1 to use `IndentWidth` value
 PointerAlignment: Left
+DerivePointerAlignment: false
 QualifierAlignment: Custom
 QualifierOrder: [inline, static, type, const, constexpr]
 ReferenceAlignment: Pointer
 SeparateDefinitionBlocks: Always
 SpaceAfterCStyleCast: true
-SpaceAroundPointerQualifiers: Before
+# SpaceAroundPointerQualifiers: Before
 SpaceBeforeCtorInitializerColon: true
 SpaceBeforeInheritanceColon: true
 AlignOperands: AlignAfterOperator
