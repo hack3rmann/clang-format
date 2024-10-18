@@ -19,7 +19,7 @@ IndentCaseLabels: false
 IndentExternBlock: true
 IndentGotoLabels: true
 IndentPPDirectives: AfterHash
-RequiresClausePosition: OwnLine # TODO: read more about
+RequiresClausePosition: OwnLine
 IndentRequiresClause: true
 InsertBraces: true # may cause bugs (see https://clang.llvm.org/docs/ClangFormatStyleOptions.html#insertbraces)
 IntegerLiteralSeparator:
@@ -43,3 +43,5 @@ BreakBeforeBraces: Custom
 BraceWrapping:
   AfterControlStatement: MultiLine
 PackConstructorInitializers: Never
+AllowShortLambdasOnASingleLine: All
+LambdaBodyIndentation: Signature
