@@ -24,8 +24,8 @@ IndentRequiresClause: true
 InsertBraces: true # may cause bugs (see https://clang.llvm.org/docs/ClangFormatStyleOptions.html#insertbraces)
 IntegerLiteralSeparator:
   Binary: 0
-  Decimal: 3
-  Hex: -1
+  Decimal: 0
+  Hex: 0
 MaxEmptyLinesToKeep: 2
 NamespaceIndentation: All
 PPIndentWidth: -1 # -1 to use `IndentWidth` value
