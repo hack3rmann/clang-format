@@ -28,7 +28,7 @@ IntegerLiteralSeparator:
   Decimal: 0
   Hex: 0
 MaxEmptyLinesToKeep: 2
-NamespaceIndentation: All
+NamespaceIndentation: Inner
 PPIndentWidth: -1 # -1 to use `IndentWidth` value
 PointerAlignment: Left
 DerivePointerAlignment: false
